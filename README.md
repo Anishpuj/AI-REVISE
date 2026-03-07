@@ -1,6 +1,6 @@
 # AI-REVISE
 
-A comprehensive learning repository for AI and programming concepts..
+A comprehensive learning repository for AI and programming concepts...
 
 ## Structure
 
