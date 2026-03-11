@@ -32,8 +32,8 @@
 - [x] **51:49 - 59:11** - Input and Output 📥📤
 
 ### ⚡ **Module 3: Control Flow**
-- [ ] **59:11 - 01:39:27** - Operators in Python ➕➖✖️➗
-- [ ] **01:39:27 - 02:16:14** - If Else in Python 🔀
+- [x] **59:11 - 01:39:27** - Operators in Python ➕➖✖️➗
+- [x] **01:39:27 - 02:16:14** - If Else in Python 🔀
 - [ ] **02:16:14 - 02:50:19** - Loops Concepts 🔄
 
 ### 💪 **Module 4: Practice Problems**
