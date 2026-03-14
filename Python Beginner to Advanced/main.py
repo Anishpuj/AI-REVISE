@@ -117,6 +117,7 @@
 # print(f"not False = {not False}")
 
 
+"""
 # If Statement
 # Example
 condition = True
@@ -195,8 +196,8 @@ else:
      print("The number is odd")
 
 
-#Accept name and age from the user. Check if the user is a valid voter or not. Ex- “hello shery you are a valid voter”
-name = char(input("Enter your name: "))
+#Accept name and age from the user. Check if the user is a valid voter or not. Ex- "hello shery you are a valid voter"
+name = (input("Enter your name: "))
 age = int(input("Enter your age: "))
 if age >= 18:
      print("Hello", name, "you are a valid voter")
@@ -209,3 +210,98 @@ if year % 4 == 0:
      print("The year is a leap year")
 else:
      print("The year is not a leap year")
+
+temprature = int(input("Enter a value for temprature: "))
+if temprature < 0:
+          print("The temp is Freezing Cold")
+elif temprature <= 10:
+          print("The temp is Very Cold")
+elif temprature <= 20:
+          print("The temp is Cold")
+elif temprature <= 30:
+          print("The temp is Pleasant")
+elif temprature <= 40:
+          print("The temp is Hot")
+else:
+          print("The temp is Very Hot")
+"""
+     
+
+""" for i in range(1,6):
+     print(i)  """
+     
+""" print("I am going to count from 1 to 5")
+for i in range(1,21,1):
+     print("I am at", i)
+      """
+
+""" for i in range(-3,-16,-1):
+     print(i) """
+
+""" a = "Nature"
+for i in range(len(a)):
+     print(a[i]) """
+
+""" for i in range(5,51,5):
+     print(i) """
+
+""" a = "Nature"
+for char in a:
+     print(char) """
+
+""" n = int(input("Enter a number:"))
+for i in range(n):
+     print("Hello World")
+ """
+
+# Refactored code with comments explaining how it works
+
+# Prompt the user to enter a number
+#n = int(input("Enter a number:"))
+
+# Initialize a for loop that starts from 1 and goes up to n+1
+# Note: The range function generates a sequence of numbers from start to stop-1
+# We add 1 to n to include n in the range
+#for i in range(1, n+1):
+    
+    # Print the current value of i
+    # This will print the numbers from 1 to n
+   # print(i)
+
+    # Reverse for loop. Print n to 1
+    # We can use the range function with a negative step to go backwards
+""" n = int(input("Enter a number: "))
+for j in range(n, 0, -1):
+        print(j) """
+
+""" n = int(input("Enter a number :"))
+for i in range(n,n*11,n):
+    print(i)
+ """
+
+
+# Sum up to n terms
+""" n = int(input("Enter a number: "))
+total = 0
+for i in range(1, n+1):
+    total += i
+print(total) """
+    # The '+=' operator adds the current value of i to the total variable
+    # The value of total is updated with each iteration of the loop
+    # For example, if n is 5, the total will start at 0 and be updated to 1, then 3, then 6, then 10, then 15
+    # The final value of total will be 15, which is the sum of all the numbers from 1 to 5
+
+# Calculate the factorial of a number
+""" n = int(input("Enter a number: "))
+factorial = 1
+for i in range(1, n+1):
+    factorial *= i
+print(factorial) """
+    # The *= operator multiplies the current value of factorial by i on each iteration
+    # The value of factorial is updated with each iteration of the loop
+    # For example, if n is 5, the factorial will start at 1 and be updated to 1, then 2, then 6, then 24, then 120
+
+    # The factorial of 0 is 1, not 0
+    # This is a convention in mathematics
+    # The factorial of a number is the product of all positive integers less than or equal to that number
+    # Therefore, the factorial of 0 is defined to be 1, since there are no positive integers less than or equal to 0
